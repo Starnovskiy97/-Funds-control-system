@@ -1,0 +1,19 @@
+.profile {
+  @apply w-full mx-6;
+
+  .profile_form {
+    @apply flex-col justify-start items-start w-1/3 mt-8;
+
+    input[type=text] {
+      @apply my-4;
+    }
+
+    button {
+      @apply mt-8;
+    }
+  }
+
+  .error {
+    @apply text-xs text-red-600 absolute;
+  }
+}

@@ -1,0 +1,11 @@
+.history {
+  @apply w-full mx-6;
+
+  &_form {
+    @apply flex-col justify-start items-start w-full mt-8;
+  }
+
+  &_empty {
+    @apply text-lg;
+  }
+}

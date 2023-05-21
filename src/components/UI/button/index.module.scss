@@ -1,0 +1,15 @@
+.button {
+  @apply flex items-center justify-center bg-sky-500 px-8 py-2 text-white rounded-sm hover:bg-sky-400 transition-colors shadow-md;
+
+  svg {
+    @apply ml-2;
+  }
+
+  .small {
+    @apply px-4 m-0;
+  }
+}
+
+button[type=submit] {
+  @apply bg-sky-500;
+}

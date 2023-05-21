@@ -1,0 +1,7 @@
+.dropdown {
+  @apply w-full absolute z-50 border border-gray-300 shadow-md text-black;
+
+  li {
+    @apply p-1 text-center bg-white hover:bg-slate-200 cursor-pointer;
+  }
+}

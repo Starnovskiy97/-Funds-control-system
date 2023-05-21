@@ -1,0 +1,19 @@
+.table_wrapper {
+  @apply w-full mt-16;
+  
+  table {
+    @apply w-full;
+  }
+    
+  th {
+    @apply border-b border-gray-300 pb-4;
+  }
+    
+  td {
+    @apply text-center py-4 border-b border-gray-300;
+  }
+
+  .button {
+    @apply text-center bg-sky-500 px-4 py-2 text-white rounded-sm hover:bg-sky-400 transition-colors shadow-md; 
+  }
+}

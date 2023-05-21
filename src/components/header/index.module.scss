@@ -1,0 +1,20 @@
+.header {
+    @apply flex items-center justify-between px-10 bg-purple-700 h-16 shadow-lg text-white;
+
+
+    &_menu {
+        @apply flex items-center;
+    }
+
+    &_date {
+        @apply ml-8 text-lg;
+    }
+
+    &_auth {
+        @apply relative h-full hover:bg-purple-800 transition-all;
+    }
+
+    &_button {
+        @apply flex justify-center items-center h-full w-full px-4 transition-all min-w-[6rem];
+    }
+}

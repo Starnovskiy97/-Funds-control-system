@@ -1,0 +1,7 @@
+.categories {
+  @apply w-full mx-6;
+
+  &_form {
+    @apply flex justify-between mt-8;
+  }
+}

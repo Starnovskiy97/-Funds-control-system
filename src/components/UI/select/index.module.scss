@@ -1,0 +1,11 @@
+.select {
+  @apply relative w-full outline-none;
+
+  &_active {
+    @apply text-left pb-2 border-purple-700 border-b-2 transition-all;
+  }
+
+  &_placeholder {
+    @apply text-left pb-2 border-purple-700 border-b-2 transition-all text-gray-400 font-medium;
+  }
+}

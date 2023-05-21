@@ -1,0 +1,27 @@
+.record {
+  @apply w-full mx-6;
+
+  .record_form {
+    @apply flex-col justify-start items-start w-1/3 mt-8  h-96;
+
+    > * {
+      @apply mt-2;
+    }
+
+    > p {
+      @apply absolute m-0;
+    }
+
+    input {
+      @apply mt-2 mb-1;
+    }
+
+    button[type=submit] {
+      @apply mt-10;
+    }
+  }
+
+  .error {
+    @apply text-xs text-red-600
+  }
+}

@@ -1,0 +1,11 @@
+.breadcrumbs {
+  @apply flex items-center justify-start text-lg mt-5 pb-3;
+
+  .current {
+    @apply text-gray-500 mx-2;
+  }
+
+  .active {
+    @apply font-medium text-black mx-2;
+  }
+}

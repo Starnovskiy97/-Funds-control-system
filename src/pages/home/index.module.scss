@@ -1,0 +1,7 @@
+.home {
+  @apply w-full mx-6;
+
+  &_info {
+    @apply flex justify-between mt-8;
+  }
+}
